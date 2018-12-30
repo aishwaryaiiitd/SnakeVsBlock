@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="716.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameOverWin">
+   <children>
+      <ImageView fitHeight="681.0" fitWidth="450.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Amazing-Cartoon-HD-Wallpapers-High-Quality.jpg" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" editable="false" layoutX="6.0" layoutY="50.0" prefHeight="64.0" prefWidth="439.0" text="GAME OVER !!!">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </TextField>
+      <TextField fx:id="Highscore" alignment="CENTER" blendMode="DARKEN" editable="false" layoutX="144.0" layoutY="387.0" prefHeight="83.0" prefWidth="162.0" text="2008">
+         <font>
+            <Font name="Ayuthaya" size="44.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" editable="false" layoutX="17.0" layoutY="131.0" prefHeight="46.0" prefWidth="417.0" text="The Snake Charmer ! You made made it to the leaderboards">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="NameText" alignment="CENTER" layoutX="133.0" layoutY="275.0" opacity="0.59" prefHeight="39.0" prefWidth="184.0" text="Anonymous" />
+      <Button layoutX="139.0" layoutY="331.0" mnemonicParsing="false" onAction="#continue_button" opacity="0.73" prefHeight="39.0" prefWidth="173.0" text="CONTINUE">
+         <font>
+            <Font name="Webdings" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Wintext" alignment="CENTER" editable="false" layoutX="154.0" layoutY="201.0" prefHeight="57.0" prefWidth="142.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font></TextField>
+   </children>
+   <cursor>
+      <Cursor fx:constant="WAIT" />
+   </cursor>
+</Pane>
