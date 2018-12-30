@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="716.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LeaderBoard">
+   <children>
+      <ImageView fitHeight="681.0" fitWidth="450.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Amazing-Cartoon-HD-Wallpapers-High-Quality.jpg" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" editable="false" layoutX="6.0" layoutY="50.0" prefHeight="92.0" prefWidth="439.0" text="LEADERBOARDS">
+         <font>
+            <Font size="45.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </TextField>
+      <ScrollPane layoutX="32.0" layoutY="199.0" prefHeight="227.0" prefWidth="386.0">
+         <content>
+            <VBox prefHeight="450.0" prefWidth="368.0">
+               <children>
+                  <HBox prefHeight="45.0" prefWidth="363.0">
+                     <children>
+                        <TextField fx:id="P1" editable="false" prefHeight="45.0" prefWidth="250.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                        <TextField fx:id="s1" editable="false" prefHeight="45.0" prefWidth="121.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P2" editable="false" prefHeight="45.0" prefWidth="250.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                        <TextField fx:id="s2" editable="false" prefHeight="47.0" prefWidth="119.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P3" editable="false" prefHeight="45.0" prefWidth="250.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                        <TextField fx:id="s3" editable="false" prefHeight="46.0" prefWidth="118.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P4" editable="false" prefHeight="45.0" prefWidth="250.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                        <TextField fx:id="s4" editable="false" prefHeight="45.0" prefWidth="119.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P5" editable="false" prefHeight="52.0" prefWidth="250.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                        <TextField fx:id="s5" editable="false" prefHeight="45.0" prefWidth="118.0">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font></TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P6" editable="false" prefHeight="45.0" prefWidth="250.0" />
+                        <TextField fx:id="s6" editable="false" prefHeight="45.0" prefWidth="121.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P7" editable="false" prefHeight="45.0" prefWidth="250.0" />
+                        <TextField fx:id="s7" editable="false" prefHeight="46.0" prefWidth="117.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="46.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P8" editable="false" prefHeight="46.0" prefWidth="250.0" />
+                        <TextField fx:id="s8" editable="false" prefHeight="50.0" prefWidth="117.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P9" editable="false" prefHeight="45.0" prefWidth="250.0" />
+                        <TextField fx:id="s9" editable="false" prefHeight="48.0" prefWidth="118.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="P10" editable="false" prefHeight="45.0" prefWidth="250.0" />
+                        <TextField fx:id="s10" editable="false" prefHeight="48.0" prefWidth="116.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <Button layoutX="181.0" layoutY="151.0" mnemonicParsing="false" onAction="#back_button" prefHeight="34.0" prefWidth="88.0" text="BACK">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="WAIT" />
+   </cursor>
+</Pane>
